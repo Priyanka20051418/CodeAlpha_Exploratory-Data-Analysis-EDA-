@@ -1,29 +1,37 @@
 # CodeAlpha Task 2 - Exploratory Data Analysis (EDA)
 
-## Objective
+## Project Overview
 
-Analyze the scraped book dataset and identify patterns, trends, and insights.
+This project performs Exploratory Data Analysis (EDA) on a dataset collected through web scraping. The objective is to understand the dataset, identify patterns, and generate meaningful insights.
 
-## Tools Used
+## Tools & Libraries
 
 * Python
 * Pandas
+* Matplotlib
 
 ## Analysis Performed
 
 * Dataset Overview
+* Data Types Inspection
 * Missing Value Analysis
-* Rating Distribution
-* Price Statistics
-* Insight Generation
+* Summary Statistics
+* Rating Distribution Analysis
+* Price Analysis
 
-## Key Findings
+## Key Insights
 
-* Dataset contains multiple books collected through web scraping.
-* No major missing values were observed.
-* Certain ratings appear more frequently than others.
-* Price distribution helps understand product trends.
+* Identified the distribution of book ratings.
+* Analyzed price statistics and trends.
+* Checked for missing values and data quality issues.
+* Explored dataset structure and characteristics.
 
-## Conclusion
+## How to Run
 
-EDA helped uncover patterns and understand the structure of the dataset before visualization and advanced analysis.
+pip install -r requirements.txt
+
+python eda_analysis.py
+
+## Author
+
+Lakshmi Priyanka Reddy
